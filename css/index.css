@@ -302,7 +302,8 @@ section.project
 section.aboutme {
   width: 100%;
   background-color: #ffd58c;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 section.aboutme .aboutme-inner {
   width: 90%;
@@ -325,7 +326,7 @@ section.aboutme .aboutme-inner .aboutme-img {
   margin: 40px 0;
 }
 section.aboutme .aboutme-inner .aboutme-text {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 section.aboutme .aboutme-inner .aboutme-text:last-child {
   margin-bottom: 0;
@@ -364,6 +365,7 @@ section.aboutme .aboutme-inner .skill-content {
 }
 section.aboutme .aboutme-inner .skill-content > div {
   padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 section.aboutme .aboutme-inner .skill-content div h4 {
   text-align: center;
@@ -397,7 +399,39 @@ section.aboutme .aboutme-inner .skill-content div:nth-child(6) h4 {
 section.aboutme .aboutme-inner .skill-content div:nth-child(7) h4 {
   color: #e3adad;
 }
-
+/* magic scroll */
+.back-to-position {
+  opacity: 0;
+  transition: all 2s;
+}
+.back-to-position.to-right {
+  transform: translateX(230px);
+}
+.back-to-position.to-left {
+  transform: translateX(-230px);
+}
+.back-to-position.to-top {
+  transform: translateY(77px);
+}
+.show .back-to-position {
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+.rotation {
+  transform: rotate(-359deg);
+  transition: all 1s;
+}
+.show .rotation {
+  transform: rotate(0);
+}
+.big {
+  transform: scale(0.64);
+  transition: all 1s;
+}
+.show .big {
+  transform: scale(1);
+}
 @media all and (min-width: 768px) {
   body {
     background-color: coral;
