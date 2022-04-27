@@ -426,9 +426,9 @@ section.aboutme .aboutme-inner .skill-content div:nth-child(7) h4 {
   transform: rotate(0);
 }
 .big {
-  transform: scale(0.64);
+  transform: scale(0.55);
   transition: all 1s;
-  transition-delay: 0.4s;
+  transition-delay: 0.3s;
 }
 .show .big {
   transform: scale(1.15);
