@@ -199,8 +199,8 @@ header.top #header_inner .header-ment p {
   text-align: center;
   margin-top: 40px;
   padding: 25px 0;
-  border-top: 2px solid rgb(250, 215, 215);
-  border-bottom: 2px solid rgb(250, 215, 215);
+  border-top: 2px solid rgb(255, 214, 214);
+  border-bottom: 2px solid rgb(255, 214, 214);
 }
 .intro .intro-inner h2 {
   font-size: 4vw;
