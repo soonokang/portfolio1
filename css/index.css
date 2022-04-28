@@ -796,6 +796,11 @@ section.aboutme .aboutme-inner .skill-content div:nth-child(7) h4 {
   section.aboutme .aboutme-inner .skill-content div p {
     font-size: 20px;
   }
+  section.aboutme .aboutme-inner .skill-content div p span {
+    font-weight: bold;
+    font-size: 21.5px;
+    color: rgb(122, 168, 122);
+  }
 }
 @media all and (min-width: 1300px) {
   header.top #header_inner {
