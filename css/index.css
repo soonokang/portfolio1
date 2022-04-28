@@ -6,7 +6,7 @@ a {
   display: block;
   color: #31608f;
   font-weight: bold;
-  animation: leftright 1.2s linear alternate infinite;
+  animation: leftright 0.8s linear alternate infinite;
 }
 a:hover {
   color: #c97431;
@@ -27,7 +27,7 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(25px);
+    transform: translateX(10px);
   }
   100% {
     transform: translateX(0);
